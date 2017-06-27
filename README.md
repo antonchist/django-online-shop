@@ -12,3 +12,5 @@
 * Восьмой урок: [Ссылка](http://dikiigrigorii.ru/articles/get/2016/07/29/internet-magazin-na-django-integraciya-paypal-chast-8/)
 * Девятый урок: [Ссылка](http://dikiigrigorii.ru/articles/get/2016/07/30/internet-magazin-na-django-eksport-zakazov-v-csv-chast-9/)
 * Десятый урок: [Ссылка](http://dikiigrigorii.ru/articles/get/2016/08/03/internet-magazin-na-django-generaciya-pdf-chast-10/)
+* Одиннадцатый урок: [Ссылка](http://dikiigrigorii.ru/articles/get/2016/08/05/internet-magazin-na-django-sistema-kuponov-chast-11/)
+* Двенадцатый урок: [Ссылка](http://dikiigrigorii.ru/articles/get/2016/08/08/internet-magazin-na-django-sistema-kuponov-chast-12/)
