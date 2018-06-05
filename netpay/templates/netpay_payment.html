@@ -1,0 +1,30 @@
+{% extends 'shop/base.html' %}
+{# {% load i18n form_tags lib_tags %} #}
+{% load i18n %}
+
+{% block content %}
+
+{% if form %}
+    
+{% else %}
+
+	    
+    <h1 class="title">Подтверждение</h1>
+    
+    <body onLoad="load()">
+    
+    <form id=pay name=pay method="GET" action="{{ action }}">
+        <h4 class="h4_style">{% trans "Пожалуйста ожидайте. Сейчас произойдет перенаправление на страницу оплаты" %}.</h4>
+        <h4 class="h4_style">{% trans "Если этого не произошло, нажмите кнопку ниже" %}:</h4>
+        <div class="form-submit-left">
+            <input class="bt bt-blue2" type="submit" value={% trans "Оплатить" %}>
+        </div>
+        <p>
+            <input type="hidden" name="data" value="{{ data }}">
+            <input type="hidden" name="auth" value="{{ auth }}">
+            <input type="hidden" name="expire" value="{{ order_date }}">
+        </p>
+    </form>
+
+{% endif %}
+{% endblock %}
